@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoho Cliq Audio Summarizer</title>
+    <script src="popup.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+            padding: 10px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Summarizer</h1>
+    <button id="start">Start Transcription</button>
+    <textarea id="transcript" placeholder="Transcribed text will appear here..."></textarea>
+    <textarea id="summary" placeholder="Summary will appear here..."></textarea>
+    <input type="text" id="question" placeholder="Ask a question about the text..."/>
+    <button id="askQuestion">Get Answer</button>
+    <textarea id="answer" placeholder="Answer will appear here..."></textarea>
+</body>
+</html>
